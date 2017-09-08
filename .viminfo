@@ -140,12 +140,20 @@
 # Jumplist (newest first):
 -'  10  7  ~/.gitignore
 |4,39,10,7,1504838060,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1504838060,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1504838043,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1504838043,"~/.gitignore"
 -'  1  0  ~/.viminfo
 |4,39,1,0,1504838028,"~/.viminfo"
 -'  1  0  ~/.viminfo
 |4,39,1,0,1504838028,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1504838028,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1504838028,"~/.viminfo"
 -'  26  0  ~/.vimrc
 |4,39,26,0,1504826837,"~/.vimrc"
 -'  26  0  ~/.vimrc
@@ -154,6 +162,22 @@
 |4,39,26,0,1504826837,"~/.vimrc"
 -'  26  0  ~/.vimrc
 |4,39,26,0,1504826837,"~/.vimrc"
+-'  26  0  ~/.vimrc
+|4,39,26,0,1504826837,"~/.vimrc"
+-'  26  0  ~/.vimrc
+|4,39,26,0,1504826837,"~/.vimrc"
+-'  26  0  ~/.vimrc
+|4,39,26,0,1504826837,"~/.vimrc"
+-'  26  0  ~/.vimrc
+|4,39,26,0,1504826837,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1504826649,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1504826649,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1504826649,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1504826649,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1504826649,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -178,6 +202,38 @@
 |4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
 -'  26  0  ~/cs315/git/inclass/week03/nt.c
 |4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  26  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  26  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  26  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  26  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  26  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  26  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  26  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  26  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,26,0,1504826645,"~/cs315/git/inclass/week03/nt.c"
+-'  1  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
+-'  1  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
+-'  1  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
+-'  1  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
+-'  1  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
+-'  1  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
+-'  1  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
+-'  1  0  ~/cs315/git/inclass/week03/nt.c
+|4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
 -'  1  0  ~/cs315/git/inclass/week03/nt.c
 |4,39,1,0,1504825587,"~/cs315/git/inclass/week03/nt.c"
 -'  1  0  ~/cs315/git/inclass/week03/nt.c
@@ -226,6 +282,38 @@
 |4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
 -'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
 |4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
+-'  1  0  ~/bundle/ctrlp.vim/doc/ctrlp.cnx
+|4,39,1,0,1504825504,"~/bundle/ctrlp.vim/doc/ctrlp.cnx"
 -'  23  12  ~/.vimrc
 |4,39,23,12,1504824072,"~/.vimrc"
 -'  23  12  ~/.vimrc
@@ -248,98 +336,14 @@
 |4,39,23,12,1504824072,"~/.vimrc"
 -'  23  12  ~/.vimrc
 |4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  23  12  ~/.vimrc
-|4,39,23,12,1504824072,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1504824008,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
--'  15  0  ~/.vimrc
-|4,39,15,0,1504823976,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/NERD_tree_2
+	*	1504838472	0
+	"	7	0
+	.	1	0
+	+	1	0
 
 > ~/.gitignore
 	*	1504838059	0
@@ -526,12 +530,6 @@
 > ~/cs326/git/inclass/week03/min_max_lines.c
 	*	1504822392	0
 	"	2	0
-
-> ~/NERD_tree_2
-	*	1504821943	0
-	"	7	0
-	.	1	0
-	+	1	0
 
 > ~/cs326/git/project01-tmbernardo/usfgrep.c
 	*	1504821302	0
