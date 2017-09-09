@@ -6,7 +6,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhartington/oceanic-next'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'ryanoasis/vim-devicons'
+
 "*****************************************************************************
 "" Custom bundles
 "*****************************************************************************
@@ -39,6 +40,7 @@ syntax on
 colorscheme OceanicNext
 set ruler
 set number
+set lazyredraw
 
 " vim-airline
 let g:airline_theme = 'powerlineish'
@@ -46,3 +48,8 @@ let g:airline_theme = 'powerlineish'
 "" NERDTree configuration
 nnoremap <silent> <F2> :NERDTreeFind<CR>
 noremap <C-g> :NERDTreeToggle<CR>
+
+let NERDTreeShowHidden=1
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
