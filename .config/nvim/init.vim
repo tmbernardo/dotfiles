@@ -7,7 +7,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhartington/oceanic-next'
 Plug 'ryanoasis/vim-devicons'
-
+Plug 'tpope/vim-fugitive'
 "*****************************************************************************
 "" Custom bundles
 "*****************************************************************************
@@ -33,7 +33,10 @@ set softtabstop=0
 set shiftwidth=4
 set expandtab
 
-"*****************************************************************************
+let g:python_host_prog  = '/path/to/python'
+let g:python3_host_prog = '/path/to/python3'
+
+"*****************************************************************************"
 "" Visual Settings
 "*****************************************************************************
 syntax on
