@@ -44,7 +44,7 @@ colorscheme OceanicNext
 set ruler
 set number
 set lazyredraw
-
+set scrolljump=10
 " vim-airline
 let g:airline_theme = 'powerlineish'
 
