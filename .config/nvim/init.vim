@@ -76,5 +76,5 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "" Remaps
 "*****************************************************************************
 
-inoremap <C-s> <esc>:w<cr>a
-nnoremap <C-s> :w<cr>a
+inoremap <C-s> <esc>:w<cr><esc>
+nnoremap <C-s> :w<cr>

@@ -1,6 +1,11 @@
-*
+/*
 
-!.gitignore
-!.vim
 !.vimrc
+!.gitignore
 !README.md
+
+!.config/
+.config/*
+!.config/nvim
+.config/nvim/*
+!.config/nvim/init.vim
