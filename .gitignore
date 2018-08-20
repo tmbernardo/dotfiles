@@ -1,5 +1,10 @@
 /*
 
 !.vimrc
-!*/.config/nvim/init.vim
 !.gitignore
+
+!.config/
+.config/*
+!.config/nvim
+.config/nvim/*
+!.config/nvim/init.vim
