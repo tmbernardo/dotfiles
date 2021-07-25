@@ -332,7 +332,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-surround'
 
     " tmux integration for vim
-    Plug 'preservim/vimux'
+    " Plug 'preservim/vimux'
 
     " enables repeating other supported plugins with the . command
     Plug 'tpope/vim-repeat'
@@ -493,29 +493,25 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'rbong/vim-flog'
     " }}}
 
-    " UltiSnips {{{
-        Plug 'SirVer/ultisnips' " Snippets plugin
-        let g:UltiSnipsExpandTrigger="<C-l>"
-        let g:UltiSnipsJumpForwardTrigger="<C-j>"
-        let g:UltiSnipsJumpBackwardTrigger="<C-k>"
-    " }}}
+    " " UltiSnips {{{
+    "     Plug 'SirVer/ultisnips' " Snippets plugin
+    "     let g:UltiSnipsExpandTrigger="<C-l>"
+    "     let g:UltiSnipsJumpForwardTrigger="<C-j>"
+    "     let g:UltiSnipsJumpBackwardTrigger="<C-k>"
+    " " }}}
 
     " coc {{{
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
         let g:coc_global_extensions = [
-        \ 'coc-css',
+        \ 'coc-rust-analyzer',
         \ 'coc-json',
-        \ 'coc-tsserver',
         \ 'coc-git',
-        \ 'coc-eslint',
-        \ 'coc-tslint-plugin',
         \ 'coc-pairs',
         \ 'coc-sh',
         \ 'coc-vimlsp',
-        \ 'coc-emmet',
         \ 'coc-prettier',
-        \ 'coc-ultisnips',
+        " \ 'coc-ultisnips',
         \ 'coc-explorer',
         \ 'coc-diagnostic',
         \ 'coc-highlight'
@@ -600,50 +596,14 @@ call plug#begin('~/.config/nvim/plugged')
 " }}}
 
 " Language-Specific Configuration {{{
-    " html / templates {{{
-        " emmet support for vim - easily create markdup wth CSS-like syntax
-        Plug 'mattn/emmet-vim'
-
-        " match tags in html, similar to paren support
-        Plug 'gregsexton/MatchTag', { 'for': 'html' }
-
-        " html5 support
-        Plug 'othree/html5.vim', { 'for': 'html' }
-
-        " mustache support
-        Plug 'mustache/vim-mustache-handlebars'
-
-        " pug / jade support
-        Plug 'digitaltoad/vim-pug', { 'for': ['jade', 'pug'] }
-
-        " nunjucks support
-        Plug 'niftylettuce/vim-jinja'
-
-        " liquid support
-        Plug 'tpope/vim-liquid'
+    " Python {{{
     " }}}
-
-    " JavaScript {{{
-        Plug 'othree/yajs.vim', { 'for': [ 'javascript', 'javascript.jsx', 'html' ] }
-        " Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx', 'html'] }
-        Plug 'moll/vim-node', { 'for': 'javascript' }
-        Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'], 'do': 'npm install' }
-        Plug 'MaxMEllon/vim-jsx-pretty'
-        let g:vim_jsx_pretty_highlight_close_tag = 1
+    
+    " Rust {{{
     " }}}
-
-    " TypeScript {{{
-        Plug 'leafgarland/typescript-vim', { 'for': ['typescript', 'typescript.tsx'] }
-        " Plug 'Shougo/vimproc.vim', { 'do': 'make' } TODO what still needs this?
-    " }}}
-
-
-    " Styles {{{
-        Plug 'wavded/vim-stylus', { 'for': ['stylus', 'markdown'] }
-        Plug 'groenewege/vim-less', { 'for': 'less' }
-        Plug 'hail2u/vim-css3-syntax', { 'for': 'css' }
-        Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
-        Plug 'stephenway/postcss.vim', { 'for': 'css' }
+    
+    " Kitty {{{
+        Plug 'fladson/vim-kitty'
     " }}}
 
     " markdown {{{

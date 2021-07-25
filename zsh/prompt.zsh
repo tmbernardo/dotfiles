@@ -19,21 +19,6 @@ suspended_jobs() {
     fi
 }
 
-node_prompt() {
-    [[ -f package.json || -d node_modules ]] || return
-
-    local version=''
-    local node_icon='\ue718'
-
-    if dotfiles::exists node; then
-        version=$(node -v 2>/dev/null)
-    fi
-
-    [[ -n version ]] || return
-
-    dotfiles::print '029' "$node_icon $version"
-}
-
 git_status_done() {
     # $3 is the stdout of the git_status command
     RPROMPT="$3 $(suspended_jobs)"
@@ -147,7 +132,6 @@ async_start_worker vcs_info
 async_register_callback vcs_info git_status_done
 
 add-zsh-hook precmd () {
-    print -P "\n%F{005}%~ $(node_prompt)"
     async_job vcs_info git_status "$PWD"
 }
 

@@ -104,7 +104,8 @@ setup_symlinks() {
     echo -e
     info "Creating vim symlinks"
     VIMFILES=( "$HOME/.vim:$DOTFILES/config/nvim"
-            "$HOME/.vimrc:$DOTFILES/config/nvim/init.vim" )
+            "$HOME/.vimrc:$DOTFILES/config/nvim/init.vim"
+    )
 
     for file in "${VIMFILES[@]}"; do
         KEY=${file%%:*}
@@ -275,7 +276,7 @@ case "$1" in
         ;;
     all)
         setup_symlinks
-        setup_terminfo
+        # setup_terminfo
         setup_homebrew
         setup_shell
         setup_git
