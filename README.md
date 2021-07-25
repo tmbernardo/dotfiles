@@ -1,5 +1,5 @@
 # Dotfiles
-Stolen from nicknisi's dotfiles[https://github.com/nicknisi/dotfiles]
+Stolen from [nicknisi's dotfiles](https://github.com/nicknisi/dotfiles) and updated to cover Python and Rust development.
 
 ## Initial Setup and Installation
 
@@ -29,7 +29,7 @@ Then, clone the dotfiles repository anywhere you like on your machine.
 
 `install.sh` will start by initializing the submodules used by this repository (if any). **Read through this file and comment out anything you don't want installed.** Then, it will install all symbolic links into your home directory. Every file with a `.symlink` extension will be symlinked to the home directory with a `.` in front of it. As an example, `vimrc.symlink` will be symlinked in the home directory as `~/.vimrc`. Then, this script will create a `~/.vim-tmp` directory in your home directory, as this is where vim is configured to place its temporary files. Additionally, all files in the `$DOTFILES/config` directory will be symlinked to the `~/.config/` directory for applications that follow the [XDG base directory specification](http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html), such as neovim.
 
-Next, the install script will perform a check to see if it is running on an OSX machine. If so, it will install Homebrew if it is not currently installed and will install the homebrew packages listed in [`Brewfile`](Brewfile). Then, it will run [`osx.sh`](install/osx.sh) and change some OSX configurations. This file is pretty well documented and so it is advised that you __read through and comment out any changes you do not want__.
+Next, the install script will perform a check to see if it is running on an OSX machine. If so, it will install Homebrew if it is not currently installed and will install the homebrew packages listed in [`Brewfile`](Brewfile). Then, it will change some OSX configurations mentioned in [`osx.sh`](https://github.com/tmbernardo/dotfiles/blob/d865d73aa2687bebe4f5e35b6879ef5c88b0b6ff/install.sh#L197-L252). This file is pretty well documented and so it is advised that you __read through and comment out any changes you do not want__.
 
 ## Terminal Capabilities
 
@@ -80,10 +80,6 @@ The git info shown on the `RPROMPT` displays the current branch name, along with
 #### Jobs Prompt
 
 The prompt will also display a `✱` character in the `RPROMPT` indicating that there is a suspended job that exists in the background. This is helpful in keeping track of putting vim in the background by pressing CTRL-Z.
-
-#### Node Prompt
-
-If a `package.json` file or a `node_modules` directory exists in the current working directory, display the node symbol, along with the current version of Node. This is useful information when switching between projects that depend on different versions of Node.
 
 ## Vim and Neovim Setup
 
