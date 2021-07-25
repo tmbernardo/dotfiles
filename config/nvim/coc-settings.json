@@ -15,9 +15,9 @@
     "git.addGBlameToBufferVar": true,
     "coc.preferences.formatOnSaveFiletypes": [
         "rust",
+        "python",
         "javascript",
-        "javascript.jsx",
-        "html"
+        "javascript.jsx"
     ],
     "explorer.icon.enableNerdfont": true,
     "explorer.sources": [

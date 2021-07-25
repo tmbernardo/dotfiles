@@ -505,17 +505,19 @@ call plug#begin('~/.config/nvim/plugged')
 
         let g:coc_global_extensions = [
         \ 'coc-rust-analyzer',
+        \ 'coc-python',
         \ 'coc-json',
         \ 'coc-git',
         \ 'coc-pairs',
         \ 'coc-sh',
         \ 'coc-vimlsp',
         \ 'coc-prettier',
-        " \ 'coc-ultisnips',
         \ 'coc-explorer',
         \ 'coc-diagnostic',
         \ 'coc-highlight'
         \ ]
+        " \ 'coc-ultisnips',
+
 
         autocmd CursorHold * silent call CocActionAsync('highlight')
 
