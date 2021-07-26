@@ -18,6 +18,7 @@ git_clone_error_msg() {
     echo -e "  ${Red}[ERROR]${Rst} git clone errored: ${Red}${1}${Rst}. ${Yel}aborting...${Rst}"
 }
 
+# fetches vim and zsh dependencies
 # Simplest dependency fetcher known to mankind
 if [[ $1 == "update" ]]; then
     for name in ${(@k)plugins}; do
