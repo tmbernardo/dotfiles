@@ -607,6 +607,9 @@ call plug#begin('~/.config/nvim/plugged')
     " Kitty {{{
         Plug 'fladson/vim-kitty'
     " }}}
+    " Styles {{{
+        Plug 'wavded/vim-stylus', { 'for': ['stylus', 'markdown'] }
+    " }}}
 
     " markdown {{{
         Plug 'tpope/vim-markdown', { 'for': 'markdown' }

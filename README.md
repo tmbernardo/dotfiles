@@ -1,6 +1,10 @@
 # Dotfiles
 Stolen from [nicknisi's dotfiles](https://github.com/nicknisi/dotfiles) and updated to cover Python and Rust development.
 
+#### Updates
+- Rust support with coc-rust-analyzer
+- Python support
+
 ## Initial Setup and Installation
 
 ### Backup
