@@ -6,6 +6,9 @@ Stolen from [nicknisi's dotfiles](https://github.com/nicknisi/dotfiles) and upda
 - Python support
 - iTerm installation and profile automation
 
+#### TODO
+- Terminal auto-install profile
+
 ## Initial Setup and Installation
 
 ### Backup

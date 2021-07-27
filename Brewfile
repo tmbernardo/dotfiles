@@ -8,6 +8,7 @@ if OS.mac?
     # brew "trash"
 
     # Applications
+    cask "visual-studio-code"
     # cask "kitty"
     cask "notion"
     cask "rocket"
@@ -39,7 +40,6 @@ end
 
 tap "homebrew/bundle"
 tap "homebrew/core"
-tap "schniz/tap"
 
 # packages
 # brew "ack"
@@ -64,7 +64,6 @@ brew "neovim"
 brew "python"
 brew "rustup"
 # brew "ripgrep"
-# brew "schniz/tap/fnm"
 # brew "shellcheck"
 brew "tmux"
 # brew "tree" # maybe
