@@ -14,6 +14,12 @@ if OS.mac?
     cask "timing"
     # cask "paw"
     cask "postman"
+    cask "1password"
+    cask "iterm2"
+    cask "spotify"
+    cask "vlc"
+    cask "zoom"
+    cask "vox"
 
     # Browsers
     cask "firefox"

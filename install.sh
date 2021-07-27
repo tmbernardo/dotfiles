@@ -94,7 +94,7 @@ setup_symlinks() {
         fi
     done
 
-    # create vim symlinks
+    # create vim and iTerm2 symlinks
     # As I have moved off of vim as my full time editor in favor of neovim,
     # I feel it doesn't make sense to leave my vimrc intact in the dotfiles repo
     # as it is not really being actively maintained. However, I would still
@@ -102,12 +102,17 @@ setup_symlinks() {
     # neovim equivalent.
 
     echo -e
-    info "Creating vim symlinks"
+    info "Creating vim and iterm symlinks"
     VIMFILES=( "$HOME/.vim:$DOTFILES/config/nvim"
             "$HOME/.vimrc:$DOTFILES/config/nvim/init.vim"
     )
+    ITERMFILES=( 
+        "$HOME/Library/Application Support/iTerm2/DynamicProfiles/Profiles.json:$DOTFILES/iterm/Profiles.json"
+    )
 
-    for file in "${VIMFILES[@]}"; do
+    FILES+=( "${VIMFILES[@]}" "${ITERMFILES[@]}" )
+
+    for file in "${FILES[@]}"; do
         KEY=${file%%:*}
         VALUE=${file#*:}
         if [ -e "${KEY}" ]; then
@@ -275,9 +280,9 @@ case "$1" in
         setup_macos
         ;;
     all)
-        setup_symlinks
         # setup_terminfo
         setup_homebrew
+        setup_symlinks
         setup_shell
         setup_git
         setup_macos

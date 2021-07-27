@@ -4,6 +4,7 @@ Stolen from [nicknisi's dotfiles](https://github.com/nicknisi/dotfiles) and upda
 #### Updates
 - Rust support with coc-rust-analyzer
 - Python support
+- iTerm installation and profile automation
 
 ## Initial Setup and Installation
 
