@@ -3,7 +3,7 @@ if exists('b:current_syntax')
 endif
 
 " Load ruby syntax
-unlet b:current_syntax
+unlet! b:current_syntax
 
 syn keyword Brewfile_tap tap
 syn keyword Brewfile_brew brew

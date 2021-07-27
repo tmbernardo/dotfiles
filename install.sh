@@ -280,7 +280,7 @@ case "$1" in
         setup_macos
         ;;
     all)
-        # setup_terminfo
+        setup_terminfo
         setup_homebrew
         setup_symlinks
         setup_shell
