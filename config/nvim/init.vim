@@ -504,6 +504,7 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
         let g:coc_global_extensions = [
+        \ 'coc-actions',
         \ 'coc-rust-analyzer',
         \ 'coc-python',
         \ 'coc-json',

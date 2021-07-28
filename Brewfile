@@ -21,6 +21,9 @@ if OS.mac?
     cask "vlc"
     cask "zoom"
     cask "vox"
+    cask "slack"
+    cask "swish"
+    cask "mac-fan-control"
 
     # Browsers
     cask "firefox"
