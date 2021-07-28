@@ -7,6 +7,7 @@ Stolen from [nicknisi's dotfiles](https://github.com/nicknisi/dotfiles) and upda
 - iTerm installation and profile automation
 
 #### TODO
+- lua migration
 - Terminal auto-install profile
 
 ## Initial Setup and Installation
