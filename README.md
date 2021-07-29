@@ -8,6 +8,7 @@ Stolen from [nicknisi's dotfiles](https://github.com/nicknisi/dotfiles) and upda
 
 #### TODO
 - lua migration
+- Powerline Automation
 - Terminal auto-install profile
 
 ## Initial Setup and Installation

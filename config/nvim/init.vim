@@ -61,6 +61,7 @@ call plug#begin('~/.config/nvim/plugged')
 " }}}
 
 " Appearance {{{
+    set cursorline " show cursor line
     set number " show line numbers
     set wrap " turn on line wrapping
     set wrapmargin=8 " wrap lines when coming within n characters from side
@@ -179,13 +180,13 @@ call plug#begin('~/.config/nvim/plugged')
 
 " General Mappings {{{
     " set a map leader for more key combos
-    let mapleader = ','
+    let mapleader = " "
 
     " remap esc
     inoremap jk <esc>
 
     " shortcut to save
-    nmap <leader>, :w<cr>
+    nmap <leader><space> :w<cr>
 
     " set paste toggle
     set pastetoggle=<leader>v
@@ -196,7 +197,7 @@ call plug#begin('~/.config/nvim/plugged')
     map <leader>eg :e! ~/.gitconfig<cr>
 
     " clear highlighted search
-    noremap <space> :set hlsearch! hlsearch?<cr>
+    noremap , :set hlsearch! hlsearch?<cr>
 
     " activate spell-checking alternatives
     nmap ;s :set invspell spelllang=en<cr>
@@ -205,8 +206,8 @@ call plug#begin('~/.config/nvim/plugged')
     nmap <leader>md :%!markdown --html4tags <cr>
 
     " remove extra whitespace
-    nmap <leader><space> :%s/\s\+$<cr>
-    nmap <leader><space><space> :%s/\n\{2,}/\r\r/g<cr>
+    nmap <leader>, :%s/\s\+$<cr>
+    nmap <leader>,, :%s/\n\{2,}/\r\r/g<cr>
 
     inoremap <expr> <C-j> pumvisible() ? "\<C-N>" : "\<C-j>"
     inoremap <expr> <C-k> pumvisible() ? "\<C-P>" : "\<C-k>"
@@ -316,8 +317,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " General Functionality {{{
     " better terminal integration
-    " substitute, search, and abbreviate multiple variants of a word
-    Plug 'tpope/vim-abolish'
+    Plug 'liuchengxu/vim-which-key'
 
     " easy commenting motions
     Plug 'tpope/vim-commentary'
@@ -520,6 +520,7 @@ call plug#begin('~/.config/nvim/plugged')
         " \ 'coc-ultisnips',
 
 
+        " select on cursor hold 
         autocmd CursorHold * silent call CocActionAsync('highlight')
 
         " coc-prettier
@@ -601,10 +602,10 @@ call plug#begin('~/.config/nvim/plugged')
 " Language-Specific Configuration {{{
     " Python {{{
     " }}}
-    
+
     " Rust {{{
     " }}}
-    
+
     " Kitty {{{
         Plug 'fladson/vim-kitty'
     " }}}

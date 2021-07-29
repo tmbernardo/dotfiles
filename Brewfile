@@ -8,15 +8,11 @@ if OS.mac?
     # brew "trash"
 
     # Applications
-    cask "visual-studio-code"
-    # cask "kitty"
     cask "notion"
     cask "rocket"
     cask "timing"
     # cask "paw"
-    cask "postman"
     cask "1password"
-    cask "iterm2"
     cask "spotify"
     cask "vlc"
     cask "zoom"
@@ -24,6 +20,13 @@ if OS.mac?
     cask "slack"
     cask "swish"
     cask "mac-fan-control"
+
+    # Dev
+    cask "iterm2"
+    cask "postman"
+    cask "visual-studio-code"
+    cask "docker"
+    # cask "kitty"
 
     # Browsers
     cask "firefox"
