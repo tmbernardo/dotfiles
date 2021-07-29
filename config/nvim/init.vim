@@ -616,12 +616,6 @@ call plug#begin('~/.config/nvim/plugged')
     " markdown {{{
         Plug 'tpope/vim-markdown', { 'for': 'markdown' }
         let g:markdown_fenced_languages = [ 'tsx=typescript.tsx' ]
-
-        " Open markdown files in Marked.app - mapped to <leader>m
-        Plug 'itspriddle/vim-marked', { 'for': 'markdown', 'on': 'MarkedOpen' }
-        nmap <leader>m :MarkedOpen!<cr>
-        nmap <leader>mq :MarkedQuit<cr>
-        nmap <leader>* *<c-o>:%s///gn<cr>
     " }}}
 
     " JSON {{{
