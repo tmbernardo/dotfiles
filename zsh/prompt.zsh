@@ -136,5 +136,5 @@ add-zsh-hook precmd () {
 }
 
 
-export PROMPT='%(?.%F{006}.%F{009})$PROMPT_SYMBOL%f '
+export PROMPT='%(?.%F{006}.%F{009})[$USER] → %1d $PROMPT_SYMBOL%f '
 export RPROMPT="$(suspended_jobs)"

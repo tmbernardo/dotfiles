@@ -6,15 +6,6 @@ call functions#PlugLoad()
 call plug#begin('~/.config/nvim/plugged')
 
 " General {{{
-    " Abbreviations
-    abbr funciton function
-    abbr teh the
-    abbr tempalte template
-    abbr fitler filter
-    abbr cosnt const
-    abbr attribtue attribute
-    abbr attribuet attribute
-
     set autoread " detect when a file is changed
 
     " WARNING: These settings disable vim's backups (swap files).
@@ -268,8 +259,6 @@ call plug#begin('~/.config/nvim/plugged')
     nmap \t :set ts=4 sts=4 sw=4 noet<cr>
     nmap \s :set ts=4 sts=4 sw=4 et<cr>
 
-    nnoremap <silent> <leader>u :call functions#HtmlUnEscape()<cr>
-
     command! Rm call functions#Delete()
     command! RM call functions#Delete() <Bar> q!
 
@@ -282,15 +271,6 @@ call plug#begin('~/.config/nvim/plugged')
     " around line
     vnoremap <silent> al :<c-u>normal! $v0<cr>
     onoremap <silent> al :<c-u>normal! $v0<cr>
-
-    " Interesting word mappings
-    nmap <leader>0 <Plug>ClearInterestingWord
-    nmap <leader>1 <Plug>HiInterestingWord1
-    nmap <leader>2 <Plug>HiInterestingWord2
-    nmap <leader>3 <Plug>HiInterestingWord3
-    nmap <leader>4 <Plug>HiInterestingWord4
-    nmap <leader>5 <Plug>HiInterestingWord5
-    nmap <leader>6 <Plug>HiInterestingWord6
 
     " open current buffer in a new tab
     nmap <silent> gTT :tab sb<cr>
@@ -318,6 +298,10 @@ call plug#begin('~/.config/nvim/plugged')
 " General Functionality {{{
     " better terminal integration
     Plug 'liuchengxu/vim-which-key'
+    nnoremap <silent> <leader> :silent WhichKey '<Space>'<CR>
+    vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>" 
+
+    let g:which_key_sep = '→'
 
     " easy commenting motions
     Plug 'tpope/vim-commentary'
@@ -422,64 +406,6 @@ call plug#begin('~/.config/nvim/plugged')
         imap <c-x><c-f> <plug>(fzf-complete-path)
         imap <c-x><c-j> <plug>(fzf-complete-file-ag)
         imap <c-x><c-l> <plug>(fzf-complete-line)
-
-        nnoremap <silent> <Leader>C :call fzf#run({
-        \   'source':
-        \     map(split(globpath(&rtp, "colors/*.vim"), "\n"),
-        \         "substitute(fnamemodify(v:val, ':t'), '\\..\\{-}$', '', '')"),
-        \   'sink':    'colo',
-        \   'options': '+m',
-        \   'left':    30
-        \ })<CR>
-
-        command! FZFMru call fzf#run({
-        \  'source':  v:oldfiles,
-        \  'sink':    'e',
-        \  'options': '-m -x +s',
-        \  'down':    '40%'})
-
-        command! -bang -nargs=* Find call fzf#vim#grep(
-            \ 'rg --column --line-number --no-heading --follow --color=always '.<q-args>.' || true', 1,
-            \ <bang>0 ? fzf#vim#with_preview('up:60%') : fzf#vim#with_preview('right:50%:hidden', '?'), <bang>0)
-        command! -bang -nargs=? -complete=dir Files
-            \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
-        command! -bang -nargs=? -complete=dir GitFiles
-            \ call fzf#vim#gitfiles(<q-args>, fzf#vim#with_preview(), <bang>0)
-        function! RipgrepFzf(query, fullscreen)
-            let command_fmt = 'rg --column --line-number --no-heading --color=always --smart-case -- %s || true'
-            let initial_command = printf(command_fmt, shellescape(a:query))
-            let reload_command = printf(command_fmt, '{q}')
-            let spec = {'options': ['--phony', '--query', a:query, '--bind', 'change:reload:'.reload_command]}
-            call fzf#vim#grep(initial_command, 1, fzf#vim#with_preview(spec), a:fullscreen)
-        endfunction
-
-        function! FloatingFZF()
-            let buf = nvim_create_buf(v:true, v:true)
-            let height = float2nr(&lines * 0.5)
-            let width = float2nr(&columns * 0.7)
-            let horizontal = float2nr((&columns - width) / 2)
-            let vertical = 0
-            let opts = {
-                \ 'relative': 'editor',
-                \ 'row': vertical,
-                \ 'col': horizontal,
-                \ 'width': width,
-                \ 'height': height,
-                \ 'style': 'minimal'
-            \ }
-            call nvim_open_win(buf, v:true, opts)
-        endfunction
-
-        let $FZF_DEFAULT_OPTS= $FZF_DEFAULT_OPTS
-            \ . " --layout reverse"
-            \ . " --pointer ' '"
-            \ . " --info hidden"
-            \ . " --color 'bg+:0'"
-            \ . " --border rounded"
-
-        let g:fzf_preview_window = ['right:50%:hidden', '?']
-        let g:fzf_layout = { 'window': 'call FloatingFZF()' }
-    " }}}
 
     " vim-fugitive {{{
         Plug 'tpope/vim-fugitive'
