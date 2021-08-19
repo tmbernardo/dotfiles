@@ -9,6 +9,7 @@ Stolen from [nicknisi's dotfiles](https://github.com/nicknisi/dotfiles) and upda
 #### TODO
 - lua migration
 - yabai/limelight/skhd config automation
+- hammerspoon automation
 - karabiner elements config automation
 - Powerline Automation
 - Terminal auto-install profile
