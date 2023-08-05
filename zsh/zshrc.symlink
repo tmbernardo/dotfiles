@@ -44,6 +44,7 @@ prepend_path /usr/local/opt/grep/libexec/gnubin
 prepend_path /usr/local/sbin
 prepend_path $DOTFILES/bin
 prepend_path $HOME/bin
+prepend_path /Users/mattbernardo/.local/bin
 
 # define the code directory
 # This is where my code exists and where I want the `c` autocomplete to work from exclusively
@@ -223,3 +224,4 @@ alias lpath='echo $PATH | tr ":" "\n"' # list the PATH separated by new lines
 
 source "$DOTFILES/zsh/utils.zsh"
 source "$DOTFILES/zsh/prompt.zsh"
+export PATH=$PATH:/Users/mattbernardo/.spicetify

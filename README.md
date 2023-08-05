@@ -7,11 +7,11 @@ Stolen from [nicknisi's dotfiles](https://github.com/nicknisi/dotfiles) and upda
 - iTerm installation and profile automation
 
 #### TODO
-- lua migration
+- rebase to latest
+- lvim installation + config automation + symlink
+- set `EDITOR` to lvim
 - yabai/limelight/skhd config automation
-- hammerspoon automation
 - karabiner elements config automation
-- Powerline Automation
 - Terminal auto-install profile
 
 ## Initial Setup and Installation

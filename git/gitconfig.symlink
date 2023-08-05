@@ -184,4 +184,9 @@
 	autoStash = true
 [user]
 	email = tbernar7@gmail.com
-	name = tmbernardo
+	name = Matthew Bernardo
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
