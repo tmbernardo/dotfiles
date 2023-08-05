@@ -20,6 +20,7 @@ if OS.mac?
     cask "slack"
     cask "swish"
     cask "mac-fan-control"
+    cask "discord"
 
     # Dev
     cask "iterm2"
